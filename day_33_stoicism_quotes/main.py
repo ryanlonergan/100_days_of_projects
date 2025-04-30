@@ -1,4 +1,5 @@
 from tkinter import *
+from PIL import Image, ImageTk
 import requests
 
 
@@ -24,8 +25,12 @@ quote_text = canvas.create_text(150, 207, text="Kanye Quote Goes HERE", width=25
                                 fill="white")
 canvas.grid(row=0, column=0)
 
-kanye_img = PhotoImage(file="marcus_aurelius.png")
-kanye_button = Button(image=kanye_img, highlightthickness=0, borderwidth=0, command=get_quote)
+image = Image.open("marcus_aurelius.png")
+image_resized = image.resize((200, 200))
+
+img = ImageTk.PhotoImage(image_resized)
+
+kanye_button = Button(image=img, highlightthickness=0, borderwidth=0, command=get_quote)
 kanye_button.grid(row=1, column=0)
 
 get_quote()
