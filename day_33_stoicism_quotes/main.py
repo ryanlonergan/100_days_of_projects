@@ -14,7 +14,7 @@ def get_quote():
 
 
 window = Tk()
-window.title("Yeezy Says...")
+window.title("Stoic Quotes")
 window.config(padx=50, pady=50)
 
 
@@ -30,8 +30,8 @@ image_resized = image.resize((200, 200))
 
 img = ImageTk.PhotoImage(image_resized)
 
-kanye_button = Button(image=img, highlightthickness=0, borderwidth=0, command=get_quote)
-kanye_button.grid(row=1, column=0)
+stoic_button = Button(image=img, highlightthickness=0, borderwidth=0, command=get_quote)
+stoic_button.grid(row=1, column=0)
 
 get_quote()
 
