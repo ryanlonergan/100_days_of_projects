@@ -1,9 +1,9 @@
-# Kanye Quote Generator
+# Stoic Quote Generator
 
 <table border='0'>
 <tr>
   <td>
-  This project uses a GUI to generate quotes that Kanye West previously said. The quotes are provided by the <a href="https://kanye.rest/">kanye.rest</a> which is a really simple api. Everytime it is accessed at <a href="https://api.kanye.rest/">api.kanye.rest</a>, it returns a dictionary with a single random quote. The program then displays the quote to the user through a very basic <a href="https://docs.python.org/3/library/tkinter.html">tkinter</a> window and a new quote can be retrieved by clicking on Kanye's head.
+  This project uses a GUI to generate stoic quotes and display them. The quotes are provided by the <a href="https://stoic.tekloon.net/stoic-quote/">Stoicism Quote</a> which is a really simple and concise api. Everytime it is accessed at <a href="https://stoic.tekloon.net/stoic-quote/">stoic.tekloon.net/stoic-quote</a>, it returns a json dictionary with a single random quote and the author. The program then displays the quote to the user through a very basic <a href="https://docs.python.org/3/library/tkinter.html">tkinter</a> window and a new quote can be retrieved by clicking on Marcus Aurelius' head.
   </td>
   <td>
     <div>
@@ -30,6 +30,8 @@
 </table>
 
 
-I really enjoyed this project and decided to upload it even though it was just an exercise and not the main project from the day. I am guessing that the api was made because Kanye West sounds like kanye.rest and if that isn't a good enough reason to make a REST api, I don't know what is. While it may be a joke api, it provides an entertaining way to learn how to make requests and hopefully you like it as much as I do.
+I really enjoyed this project and decided to upload it even though it was just an exercise and not the main project from the day. Not all api's have to be overly complex or detailed, so creating something quick and fun is a great use to introduce their use.
 
-<img src="https://ryanlonergan.github.io/assets/img/100_days/day_33_kanye_quotes.png" alt="GUI Screenshot">
+<i>Note: This project originally used a different api, but was changed due to some external issues with the original api.
+
+<img src="https://ryanlonergan.github.io/assets/img/100_days/day_33_stoic_quotes.png" alt="GUI Screenshot" height=500>
