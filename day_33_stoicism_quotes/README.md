@@ -3,7 +3,7 @@
 <table border='0'>
 <tr>
   <td>
-  This project uses a GUI to generate stoic quotes and display them. The quotes are provided by the <a href="https://stoic.tekloon.net/stoic-quote/">Stoicism Quote</a> which is a really simple and concise api. Everytime it is accessed at <a href="https://stoic.tekloon.net/stoic-quote/">stoic.tekloon.net/stoic-quote</a>, it returns a json dictionary with a single random quote and the author. The program then displays the quote to the user through a very basic <a href="https://docs.python.org/3/library/tkinter.html">tkinter</a> window and a new quote can be retrieved by clicking on Marcus Aurelius' head.
+  This project uses a GUI to generate stoic quotes and display them. The quotes are provided by the <a href="https://github.com/tlcheah2/stoic-quote-lambda-public-api">Stoicism Quote</a> which is a really simple and concise api. Everytime it is accessed at <a href="https://stoic.tekloon.net/stoic-quote/">stoic.tekloon.net/stoic-quote</a>, it returns a json dictionary with a single random quote and the author. The program then displays the quote to the user through a very basic <a href="https://docs.python.org/3/library/tkinter.html">tkinter</a> window and a new quote can be retrieved by clicking on Marcus Aurelius' head.
   </td>
   <td>
     <div>
